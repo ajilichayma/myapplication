@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="25dp"
+        android:layout_margin="50dp"
+        android:id="@+id/aachat"
+        android:hint=" qu'est que vous avez acheté !"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="25dp"
+        android:layout_margin="50dp"
+        android:id="@+id/aprix"
+        android:hint="que vaut votre dépense!"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="25dp"
+        android:layout_margin="50dp"
+        android:id="@+id/aajouter"
+        android:text="ajouter"
+        android:background="#E246DD"/>
+
+</LinearLayout>
